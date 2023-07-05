@@ -1,0 +1,24 @@
+{
+  "name": "bus-ticket-booking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && cd ./client && npm install && npm run build",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/stripe-js": "^1.54.1",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1",
+    "nodemailer": "^6.9.3",
+    "stripe": "^12.11.0",
+    "uuid": "^9.0.0"
+  }
+}
