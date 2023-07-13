@@ -7,7 +7,7 @@ This application uses React JS component oriented UI creation paradigm. All comp
 
 ES6 module creation along with import /export is used. Babel is used to transpile all JSX code to vanilla JavaScript code. To install all the dependecies npm is used.
 
-Back end is implemented using Node JS, Express JS and MongoDB. Atlas, the Cloud version of MongoDB is used. Real time communication is done using Socket.io.
+Back end is implemented using Node JS, Express JS and MongoDB. Atlas, the Cloud version of MongoDB is used.
 
 ## Screenshots
 
